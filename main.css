@@ -1,9 +1,6 @@
 body {
     width: 100%;
 }
-img {
-    width: 100%;
-}
 .mq-root-block {
     display: inline-block;
     padding: 2px;
