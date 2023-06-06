@@ -12,79 +12,73 @@
 
 <body>
    
-       
-        </div><span class="mq-root-block"><img loading="lazy" class="img-online"
-                src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\int_{ }^{ }{x\cdot cos\left(\frac{x}{2} \right)\cdot dx}"></span><br>Процесс
-        интегрирования можно упростить, если сделать замену переменных:<br><span class="mq-root-block"><img
-                loading="lazy" class="img-online"
-                src="https://chart.googleapis.com/chart?cht=tx&amp;chl=t=\frac{x}{2}"></span><br>Тогда исходный интеграл
-        можно записать так:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator"><span class="mq-binary-operator"><span
-                                class="mq-binary-operator">4·t</span>·<span
-                                class="mq-binary-operator">cos</span>(t)</span>·dt</span></span></div>
-        </span><br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator"><span class="mq-binary-operator"><span
-                                class="mq-binary-operator">4·x</span>·<span
-                                class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></div>
-        </span><br>Формула интегрирования по частям:<br>
-        <div class="formuls"><span class="img-online"><span class="mq-sup small"></span><span
-                    class="skobki mq-sup">∫</span><span class="mq-sub small"></span></span><span>U(x)·dV(x)</span> =
-            U(x)·V(x) - <span class="img-online"><span class="mq-sup small"></span><span
-                    class="skobki mq-sup">∫</span><span class="mq-sub small"></span></span><span>V(x)·dU(x)</span></div>
-        <br>Исходный интеграл представим как:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator">4·<span class="mq-binary-operator"><span
-                            class="skobki img-online">∫</span><span class="mq-binary-operator"><span
-                                class="mq-binary-operator">x·<span
-                                    class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></span></div>
-        </span><br>Найдем:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator"><span class="mq-binary-operator">x·<span
-                                class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></div>
-        </span><br>а затем результат домножим на 4<br>Положим:<br><span class="mq-root-block">
-            <div class="formuls">U=x</div>
-        </span><br><span class="mq-root-block">
-            <div class="formuls">dV=<span class="mq-binary-operator"><span
-                        class="mq-binary-operator">cos</span>(x)·dx</span></div>
-        </span><br>Тогда:<br><span class="mq-root-block">
-            <div class="formuls">dU=dx</div>
-        </span><br><span class="mq-root-block">
-            <div class="formuls">V=<span class="mq-binary-operator">sin</span>(x)</div>
-        </span><br>Поэтому:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator"><span class="mq-binary-operator">x·<span
-                                class="mq-binary-operator">cos</span>(x)</span>·dx</span></span>=<span
-                    class="mq-binary-operator"><span class="mq-binary-operator">x·<span
-                            class="mq-binary-operator">sin</span>(x)</span>-<span class="mq-binary-operator"><span
-                            class="skobki img-online">∫</span><span class="mq-binary-operator"><span
-                                class="mq-binary-operator">sin</span>(x)·dx</span></span></span></div>
-        </span><br>Находим интеграл:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator"><span class="mq-binary-operator">sin</span>(x)·dx</span></span></div>
-        </span><br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator"><span
-                            class="mq-binary-operator">sin</span>(x)·dx</span></span>=-<span
-                    class="mq-binary-operator">cos</span>(x)</div>
-        </span><br>В итоге получаем:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator">x·<span class="mq-binary-operator">cos</span>(x)</span></span>=<span
-                    class="mq-binary-operator"><span class="mq-binary-operator"><span class="mq-binary-operator">x·<span
-                                class="mq-binary-operator">sin</span>(x)</span>+<span
-                            class="mq-binary-operator">cos</span>(x)</span>+C</span></div>
-        </span><br>С учетом коэффициента 4, получаем<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="mq-binary-operator"><span
-                            class="mq-binary-operator">4·x</span>·<span
-                            class="mq-binary-operator">sin</span>(x)</span>+<span class="mq-binary-operator">4·<span
-                            class="mq-binary-operator">cos</span>(x)</span></span></div>
-        </span><br>Чтобы записать окончательный ответ, осталось вместо t подставить x/2.<br><span
+     <p>
+∫x · cosx2·dx
+<br>
+Процесс интегрирования можно упростить, если сделать замену переменных:
+<br>
+t = x / 2
+<br>
+Тогда исходный интеграл можно записать так:
+<br>
+∫ 4 · t · cos(t)·dt
+<br>
+∫ 4 · x · cos(x)·dx
+<br>
+Формула интегрирования по частям:
+<br>
+∫U(x)·dV(x) = U(x)·V(x) - V(x)·dU(x)
+<br>
+Исходный интеграл представим как:
+<br>
+4 · ∫ x·cos(x)·dx
+<br>
+Найдем:
+<br>
+∫ x·cos(x)·dx
+<br>
+а затем результат домножим на 4
+<br>
+Положим:
+<br>
+U = x
+<br>
+dV = cos(x)·dx
+<br>
+Тогда:
+<br>
+dU = dx
+<br>
+V = sin(x)
+<br>
+Поэтому:
+<br>
+∫x·cos(x)·dx = x·sin(x)-  sin(x)·dx
+<br>
+Находим интеграл:
+<br>
+∫ sin(x)·dx
+<br>
+∫ sin(x)·dx = -cos(x)
+<br>
+В итоге получаем:
+<br>
+∫ x·cos(x) = x·sin(x)+cos(x)+C
+<br>
+С учетом коэффициента 4, получаем
+<br>
+4·x·sin(x)+4·cos(x)
+<br>
+Чтобы записать окончательный ответ, осталось вместо t подставить x / 2.
+    </p>  
+
+
+<span
             class="mq-root-block"><img loading="lazy" class="img-online"
                 src="https://chart.googleapis.com/chart?cht=tx&amp;chl=2\cdot x\cdot sin\left(\frac{x}{2} \right)%2B4\cdot cos\left(\frac{x}{2} \right)%2BC"></span><br>Вычислим
-        определенный интеграл:<br><span class="mq-root-block"><img id="frml_05468_0" loading="lazy" class="img-online"
-                data-fx="int(0;pi/2;x*cos(x/2)*dx)"
-                src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\int_{0}^{\frac{\pi}{2}}{x\cdot cos\left(\frac{x}{2} \right)\cdot dx}"><span
-                class="mq-binary-operator">=</span>
+        определенный интеграл:<br><span class="mq-root-block">
+            <img id="frml_05468_0" loading="lazy" class="img-online" data-fx="int(0;pi/2;x*cos(x/2)*dx)" src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\int_{0}^{\frac{\pi}{2}}{x\cdot cos\left(\frac{x}{2} \right)\cdot dx}">
+            <span class="mq-binary-operator">=</span>
                 <img id="frml_05468_1" loading="lazy" class="img-online"
                 data-fx="intr(0;pi/2;2*x*sin(x/2)+4*cos(x/2))"
                 src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\left(2\cdot x\cdot sin\left(\frac{x}{2} \right)%2B4\cdot cos\left(\frac{x}{2} \right) \right)|\limits_{0}^{\frac{\pi}{2}}"><span
@@ -96,6 +90,10 @@
                 src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\frac{\pi}{\sqrt{2}}%2B{2}^{\frac{3}{2}}-4"></span><br>
                
     </div>
+    
 </body>
+
+
+
 
 </html>
