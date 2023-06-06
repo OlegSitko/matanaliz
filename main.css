@@ -1,0 +1,78 @@
+.mq-root-block {
+    display: inline-block;
+    padding: 2px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    vertical-align: middle;
+    line-height: 1em
+}
+
+.mq-binary-operator {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.mq-fraction {
+    font-size: 90%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 .2em;
+}
+
+.mq-non-leaf {
+    display: inline-block;
+}
+
+.mq-numerator {
+    padding: 0 0.1em;
+}
+
+.mq-numerator,.mq-denominator {
+    display: block;
+}
+
+.mq-denominator {
+    border-top: 1px solid;
+    float: right;
+    width: 100%;
+    padding: 0.1em;
+}
+
+.mq-sqrt-prefix {
+    padding-top: 0;
+    position: relative;
+    top: 0.1em;
+    vertical-align: top;
+    transform-origin: top;
+    font-size: 1.2em;
+    display: inline-block
+}
+
+.mq-sqrt-stem {
+    border-top: 1px solid;
+    padding-right: .2em;
+    margin-right: .1em;
+}
+
+sup.mq-fraction {
+    line-height: 1;
+    top: -1em;
+}
+
+.mq-sup,.mq-sub {
+    display: block
+}
+
+.mq-sub {
+    float: left
+}
+
+.mq-limits-sub {
+    vertical-align: bottom;
+    font-size: 0.8em
+}
+
+.mq-limits-sup {
+    vertical-align: top;
+    font-size: 0.8em
+}
