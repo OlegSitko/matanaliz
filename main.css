@@ -1,5 +1,6 @@
 body {
     width: 100%;
+    zoom: 140%;
 }
 .mq-root-block {
     display: inline-block;
