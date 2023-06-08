@@ -6,95 +6,246 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>матем</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
 
 <body>
-   
-       
-        </div><span class="mq-root-block"><img loading="lazy" class="img-online"
-                src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\int_{ }^{ }{x\cdot cos\left(\frac{x}{2} \right)\cdot dx}"></span><br>Процесс
-        интегрирования можно упростить, если сделать замену переменных:<br><span class="mq-root-block"><img
-                loading="lazy" class="img-online"
-                src="https://chart.googleapis.com/chart?cht=tx&amp;chl=t=\frac{x}{2}"></span><br>Тогда исходный интеграл
-        можно записать так:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span>
-                <span   class="mq-binary-operator"><span class="mq-binary-operator"><span
-                                class="mq-binary-operator">4·t</span>·<span
-                                class="mq-binary-operator">cos</span>(t)</span>·dt</span></span></div>
-        </span><br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator"><span class="mq-binary-operator"><span
-                                class="mq-binary-operator">4·x</span>·<span
-                                class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></div>
-        </span><br>Формула интегрирования по частям:<br>
-        <div class="formuls"><span class="img-online"><span class="mq-sup small"></span>
-            <span class="skobki mq-sup">∫U(x)·dV(x) = U(x)·V(x) - ∫V(x)·dU(x)</span>
-       </div>
-        <br>Исходный интеграл представим как:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator">4·<span class="mq-binary-operator"><span
-                            class="skobki img-online">∫</span><span class="mq-binary-operator"><span
-                                class="mq-binary-operator">x·<span
-                                    class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></span></div>
-        </span><br>Найдем:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator"><span class="mq-binary-operator">x·<span
-                                class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></div>
-        </span><br>а затем результат домножим на 4<br>Положим:<br><span class="mq-root-block">
-            <div class="formuls">U=x</div>
-        </span><br><span class="mq-root-block">
-            <div class="formuls">dV=<span class="mq-binary-operator"><span
-                        class="mq-binary-operator">cos</span>(x)·dx</span></div>
-        </span><br>Тогда:<br><span class="mq-root-block">
-            <div class="formuls">dU=dx</div>
-        </span><br><span class="mq-root-block">
-            <div class="formuls">V=<span class="mq-binary-operator">sin</span>(x)</div>
-        </span><br>Поэтому:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator"><span class="mq-binary-operator">x·<span
-                                class="mq-binary-operator">cos</span>(x)</span>·dx</span></span>=<span
-                    class="mq-binary-operator"><span class="mq-binary-operator">x·<span
-                            class="mq-binary-operator">sin</span>(x)</span>-<span class="mq-binary-operator"><span
-                            class="skobki img-online">∫</span><span class="mq-binary-operator"><span
-                                class="mq-binary-operator">sin</span>(x)·dx</span></span></span></div>
-        </span><br>Находим интеграл:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator"><span class="mq-binary-operator">sin</span>(x)·dx</span></span></div>
-        </span><br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator"><span
-                            class="mq-binary-operator">sin</span>(x)·dx</span></span>=-<span
-                    class="mq-binary-operator">cos</span>(x)</div>
-        </span><br>В итоге получаем:<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
-                        class="mq-binary-operator">x·<span class="mq-binary-operator">cos</span>(x)</span></span>=<span
-                    class="mq-binary-operator"><span class="mq-binary-operator"><span class="mq-binary-operator">x·<span
-                                class="mq-binary-operator">sin</span>(x)</span>+<span
-                            class="mq-binary-operator">cos</span>(x)</span>+C</span></div>
-        </span><br>С учетом коэффициента 4, получаем<br><span class="mq-root-block">
-            <div class="formuls"><span class="mq-binary-operator"><span class="mq-binary-operator"><span
+    <b>
+        <h1>Интегралы</h1>
+    </b>
+    <img src="img/003.png" alt="">
+
+    </div><span class="mq-root-block"><img loading="lazy" class="img-online"
+            src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\int_{ }^{ }{x\cdot cos\left(\frac{x}{2} \right)\cdot dx}"></span><br>Процесс
+    интегрирования можно упростить, если сделать замену переменных:<br><span class="mq-root-block"><img loading="lazy"
+            class="img-online" src="https://chart.googleapis.com/chart?cht=tx&amp;chl=t=\frac{x}{2}"></span><br>Тогда
+    исходный интеграл
+    можно записать так:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span>
+                <span class="mq-binary-operator"><span class="mq-binary-operator"><span
+                            class="mq-binary-operator">4·t</span>·<span
+                            class="mq-binary-operator">cos</span>(t)</span>·dt</span></span></div>
+    </span><br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator"><span
                             class="mq-binary-operator">4·x</span>·<span
-                            class="mq-binary-operator">sin</span>(x)</span>+<span class="mq-binary-operator">4·<span
-                            class="mq-binary-operator">cos</span>(x)</span></span></div>
-        </span><br>Чтобы записать окончательный ответ, осталось вместо t подставить x/2.<br><span
-            class="mq-root-block"><img loading="lazy" class="img-online"
-                src="https://chart.googleapis.com/chart?cht=tx&amp;chl=2\cdot x\cdot sin\left(\frac{x}{2} \right)%2B4\cdot cos\left(\frac{x}{2} \right)%2BC"></span><br>Вычислим
-        определенный интеграл:<br><span class="mq-root-block">
-            <img id="frml_05468_0" loading="lazy" class="img-online" data-fx="int(0;pi/2;x*cos(x/2)*dx)" src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\int_{0}^{\frac{\pi}{2}}{x\cdot cos\left(\frac{x}{2} \right)\cdot dx}">
-            <span class="mq-binary-operator">=</span>
-                <img id="frml_05468_1" loading="lazy" class="img-online"
-                data-fx="intr(0;pi/2;2*x*sin(x/2)+4*cos(x/2))"
-                src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\left(2\cdot x\cdot sin\left(\frac{x}{2} \right)%2B4\cdot cos\left(\frac{x}{2} \right) \right)|\limits_{0}^{\frac{\pi}{2}}"><span
-                class="mq-binary-operator">=</span><img id="frml_05468_2" loading="lazy" class="img-online"
-                data-fx="pi/sqrt(2)+2^(3/2)-4"
-                src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\frac{\pi}{\sqrt{2}}%2B{2}^{\frac{3}{2}}-4"><span
-                class="mq-binary-operator">=</span><img id="frml_05468_3" loading="lazy" class="img-online"
-                data-fx="pi/sqrt(2)+2^(3/2)-4"
-                src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\frac{\pi}{\sqrt{2}}%2B{2}^{\frac{3}{2}}-4"></span><br>
-               
+                            class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></div>
+    </span><br>Формула интегрирования по частям:<br>
+    <div class="formuls"><span class="img-online"><span class="mq-sup small"></span>
+            <span class="skobki mq-sup">∫U(x)·dV(x) = U(x)·V(x) - ∫V(x)·dU(x)</span>
     </div>
-    
+    <br>Исходный интеграл представим как:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator">4·<span class="mq-binary-operator"><span
+                        class="skobki img-online">∫</span><span class="mq-binary-operator"><span
+                            class="mq-binary-operator">x·<span
+                                class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></span></div>
+    </span><br>Найдем:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator">x·<span
+                            class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></div>
+    </span><br>а затем результат домножим на 4<br>Положим:<br><span class="mq-root-block">
+        <div class="formuls">U=x</div>
+    </span><br><span class="mq-root-block">
+        <div class="formuls">dV=<span class="mq-binary-operator"><span
+                    class="mq-binary-operator">cos</span>(x)·dx</span></div>
+    </span><br>Тогда:<br><span class="mq-root-block">
+        <div class="formuls">dU=dx</div>
+    </span><br><span class="mq-root-block">
+        <div class="formuls">V=<span class="mq-binary-operator">sin</span>(x)</div>
+    </span><br>Поэтому:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator">x·<span
+                            class="mq-binary-operator">cos</span>(x)</span>·dx</span></span>=<span
+                class="mq-binary-operator"><span class="mq-binary-operator">x·<span
+                        class="mq-binary-operator">sin</span>(x)</span>-<span class="mq-binary-operator"><span
+                        class="skobki img-online">∫</span><span class="mq-binary-operator"><span
+                            class="mq-binary-operator">sin</span>(x)·dx</span></span></span></div>
+    </span><br>Находим интеграл:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator">sin</span>(x)·dx</span></span></div>
+    </span><br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator">sin</span>(x)·dx</span></span>=-<span
+                class="mq-binary-operator">cos</span>(x)</div>
+    </span><br>В итоге получаем:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator">x·<span class="mq-binary-operator">cos</span>(x)</span></span>=<span
+                class="mq-binary-operator"><span class="mq-binary-operator"><span class="mq-binary-operator">x·<span
+                            class="mq-binary-operator">sin</span>(x)</span>+<span
+                        class="mq-binary-operator">cos</span>(x)</span>+C</span></div>
+    </span><br>С учетом коэффициента 4, получаем<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="mq-binary-operator"><span
+                        class="mq-binary-operator">4·x</span>·<span
+                        class="mq-binary-operator">sin</span>(x)</span>+<span class="mq-binary-operator">4·<span
+                        class="mq-binary-operator">cos</span>(x)</span></span></div>
+    </span><br>Чтобы записать окончательный ответ, осталось вместо t подставить x/2.<br><span class="mq-root-block"><img
+            loading="lazy" class="img-online"
+            src="https://chart.googleapis.com/chart?cht=tx&amp;chl=2\cdot x\cdot sin\left(\frac{x}{2} \right)%2B4\cdot cos\left(\frac{x}{2} \right)%2BC"></span><br>Вычислим
+    определенный интеграл:<br><span class="mq-root-block">
+        <img id="frml_05468_0" loading="lazy" class="img-online" data-fx="int(0;pi/2;x*cos(x/2)*dx)"
+            src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\int_{0}^{\frac{\pi}{2}}{x\cdot cos\left(\frac{x}{2} \right)\cdot dx}">
+        <span class="mq-binary-operator">=</span>
+        <img id="frml_05468_1" loading="lazy" class="img-online" data-fx="intr(0;pi/2;2*x*sin(x/2)+4*cos(x/2))"
+            src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\left(2\cdot x\cdot sin\left(\frac{x}{2} \right)%2B4\cdot cos\left(\frac{x}{2} \right) \right)|\limits_{0}^{\frac{\pi}{2}}"><span
+            class="mq-binary-operator">=</span><img id="frml_05468_2" loading="lazy" class="img-online"
+            data-fx="pi/sqrt(2)+2^(3/2)-4"
+            src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\frac{\pi}{\sqrt{2}}%2B{2}^{\frac{3}{2}}-4"><span
+            class="mq-binary-operator">=</span><img id="frml_05468_3" loading="lazy" class="img-online"
+            data-fx="pi/sqrt(2)+2^(3/2)-4"
+            src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\frac{\pi}{\sqrt{2}}%2B{2}^{\frac{3}{2}}-4"></span><br>
+
+    <hr>
+    <img src="img/002.png" alt="">
+    </div><span class="mq-root-block"><img loading="lazy" class="img-online"
+            src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\int_{ }^{ }{x\cdot cos\left(\frac{x}{2} \right)\cdot dx}"></span><br>Процесс
+    интегрирования можно упростить, если сделать замену переменных:<br><span class="mq-root-block"><img loading="lazy"
+            class="img-online" src="https://chart.googleapis.com/chart?cht=tx&amp;chl=t=\frac{x}{2}"></span><br>Тогда
+    исходный интеграл
+    можно записать так:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator"><span
+                            class="mq-binary-operator">4·t</span>·<span
+                            class="mq-binary-operator">cos</span>(t)</span>·dt</span></span></div>
+    </span><br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator"><span
+                            class="mq-binary-operator">4·x</span>·<span
+                            class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></div>
+    </span><br>Формула интегрирования по частям:<br>
+    <div class="formuls"><span class="img-online"><span class="mq-sup small"></span><span
+                class="skobki mq-sup">∫</span><span class="mq-sub small"></span></span><span>U(x)·dV(x)</span> =
+        U(x)·V(x) - <span class="img-online"><span class="mq-sup small"></span><span class="skobki mq-sup">∫</span><span
+                class="mq-sub small"></span></span><span>V(x)·dU(x)</span></div>
+    <br>Исходный интеграл представим как:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator">4·<span class="mq-binary-operator"><span
+                        class="skobki img-online">∫</span><span class="mq-binary-operator"><span
+                            class="mq-binary-operator">x·<span
+                                class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></span></div>
+    </span><br>Найдем:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator">x·<span
+                            class="mq-binary-operator">cos</span>(x)</span>·dx</span></span></div>
+    </span><br>а затем результат домножим на 4<br>Положим:<br><span class="mq-root-block">
+        <div class="formuls">U=x</div>
+    </span><br><span class="mq-root-block">
+        <div class="formuls">dV=<span class="mq-binary-operator"><span
+                    class="mq-binary-operator">cos</span>(x)·dx</span></div>
+    </span><br>Тогда:<br><span class="mq-root-block">
+        <div class="formuls">dU=dx</div>
+    </span><br><span class="mq-root-block">
+        <div class="formuls">V=<span class="mq-binary-operator">sin</span>(x)</div>
+    </span><br>Поэтому:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator">x·<span
+                            class="mq-binary-operator">cos</span>(x)</span>·dx</span></span>=<span
+                class="mq-binary-operator"><span class="mq-binary-operator">x·<span
+                        class="mq-binary-operator">sin</span>(x)</span>-<span class="mq-binary-operator"><span
+                        class="skobki img-online">∫</span><span class="mq-binary-operator"><span
+                            class="mq-binary-operator">sin</span>(x)·dx</span></span></span></div>
+    </span><br>Находим интеграл:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator">sin</span>(x)·dx</span></span></div>
+    </span><br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator">sin</span>(x)·dx</span></span>=-<span
+                class="mq-binary-operator">cos</span>(x)</div>
+    </span><br>В итоге получаем:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator">x·<span class="mq-binary-operator">cos</span>(x)</span></span>=<span
+                class="mq-binary-operator"><span class="mq-binary-operator"><span class="mq-binary-operator">x·<span
+                            class="mq-binary-operator">sin</span>(x)</span>+<span
+                        class="mq-binary-operator">cos</span>(x)</span>+C</span></div>
+    </span><br>С учетом коэффициента 4, получаем<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="mq-binary-operator"><span
+                        class="mq-binary-operator">4·x</span>·<span
+                        class="mq-binary-operator">sin</span>(x)</span>+<span class="mq-binary-operator">4·<span
+                        class="mq-binary-operator">cos</span>(x)</span></span></div>
+    </span><br>Чтобы записать окончательный ответ, осталось вместо t подставить x/2.<br><span class="mq-root-block"><img
+            loading="lazy" class="img-online"
+            src="https://chart.googleapis.com/chart?cht=tx&amp;chl=2\cdot x\cdot sin\left(\frac{x}{2} \right)%2B4\cdot cos\left(\frac{x}{2} \right)%2BC"></span><br>Вычислим
+    определенный интеграл:<br><span class="mq-root-block"><img loading="lazy" class="img-online"
+            src="https://chart.googleapis.com/chart?cht=tx&amp;chl=\int_{0}^{\pi}{x\cdot cos\left(\frac{x}{2} \right)\cdot dx}=\left(2\cdot x\cdot sin\left(\frac{x}{2} \right)%2B4\cdot cos\left(\frac{x}{2} \right) \right)|\limits_{0}^{\pi}=2\cdot \pi-4=2\cdot \pi-4"></span><br>
+
+    </div>
+    </div>
+    <hr>
+    <img src="img/006.png" alt="">
+    </div><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator">x·<span
+                            class="mq-binary-operator">e<sup>-x</sup></span></span>·dx</span></span></div>
+        <hr>
+    </span><br>Формула интегрирования по частям:<br>
+    <div class="formuls"><span class="img-online"><span class="mq-sup small"></span><span
+                class="skobki mq-sup">∫U(x)·dV(x)= U(x)·V(x) - ∫V(x)·dU(x)</span><span class="mq-sub small"></span></span><span></span> 
+        <span class="img-online"><span class="mq-sup small"></span><span class="skobki mq-sup"></span><span
+                class="mq-sub small"></span></span><span></span></div>
+    <br>Положим:<br><span class="mq-root-block">
+        <div class="formuls">U=x</div>
+    </span><br><span class="mq-root-block">
+        <div class="formuls">dV=<span class="mq-binary-operator"><span
+                    class="mq-binary-operator">e<sup>-x</sup></span>·dx</span></div>
+    </span><br>Тогда:<br><span class="mq-root-block">
+        <div class="formuls">dU=dx</div>
+    </span><br><span class="mq-root-block">
+        <div class="formuls">V=-<span class="mq-binary-operator">e<sup>-x</sup></span></div>
+    </span><br>Поэтому:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator">x·<span
+                            class="mq-binary-operator">e<sup>-x</sup></span></span>·dx</span></span>=<span
+                class="mq-binary-operator">-<span class="mq-binary-operator">x·<span
+                        class="mq-binary-operator">e<sup>-x</sup></span></span>-<span class="mq-binary-operator"><span
+                        class="skobki img-online">∫</span><span class="mq-binary-operator">(-<span
+                            class="mq-binary-operator">e<sup>-x</sup></span>)·dx</span></span></span>=<span
+                class="mq-binary-operator">-<span class="mq-binary-operator">x·<span
+                        class="mq-binary-operator">e<sup>-x</sup></span></span>+<span class="mq-binary-operator"><span
+                        class="skobki img-online">∫</span><span class="mq-binary-operator"><span
+                            class="mq-binary-operator">e<sup>-x</sup></span>·dx</span></span></span></div>
+    </span><br>Находим интеграл:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span class="mq-binary-operator">e<sup>-x</sup></span>·dx</span></span>
+        </div>
+    </span><br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator"><span
+                        class="mq-binary-operator">e<sup>-x</sup></span>·dx</span></span>=-<span
+                class="mq-binary-operator">e<sup>-x</sup></span></div>
+    </span><br>В итоге получаем:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator">x·<span
+                        class="mq-binary-operator">e<sup>-x</sup></span></span></span>=<span
+                class="mq-binary-operator"><span class="mq-binary-operator">-<span class="mq-binary-operator">x·<span
+                            class="mq-binary-operator">e<sup>-x</sup></span></span>-<span
+                        class="mq-binary-operator">e<sup>-x</sup></span></span>+C</span></div>
+    </span><br>или<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-binary-operator">x·<span
+                        class="mq-binary-operator">e<sup>-x</sup></span></span></span>=<span
+                class="mq-binary-operator">-<span class="mq-binary-operator">(<span
+                        class="mq-binary-operator">x+1</span>)·<span
+                        class="mq-binary-operator">e<sup>-x</sup></span></span>+C</span></div>
+    </span><br>Вычислим определенный интеграл:<br><span class="mq-root-block">
+        <div class="formuls"><span class="mq-binary-operator"><span class="skobki img-online">∫</span><span
+                    class="mq-limits-sub">0</span><span class="mq-limits-sup">1</span></span><span
+                class="mq-binary-operator"><span class="mq-binary-operator"><span class="mq-binary-operator">x·<span
+                            class="mq-binary-operator">e<sup>-x</sup></span></span>·dx</span></span>=<span
+                class="mq-binary-operator"><span class="mq-binary-operator">(</span><span
+                    class="mq-binary-operator">-<span class="mq-binary-operator">(<span
+                            class="mq-binary-operator">x+1</span>)·<span
+                            class="mq-binary-operator">e<sup>-x</sup></span></span></span><span
+                    class="mq-binary-operator">)</span>|<span class="mq-limits-sub">0</span><span
+                    class="mq-limits-sup">1</span></span>=<span class="mq-binary-operator">-<span
+                    class="mq-binary-operator">2·<span
+                        class="mq-binary-operator">e<sup>-1</sup></span></span>-(-1)</span>=<span
+                class="mq-binary-operator">1-<span class="mq-binary-operator">2·<span
+                        class="mq-binary-operator">e<sup>-1</sup></span></span></span></div>
+    </span><br>
+    <hr>
+    </div>
+
+    <img src="img/011.jpg" alt="">
+       
 </body>
 
 </html>
